@@ -1,6 +1,9 @@
 import requests
+import csv
+import pandas as pd
 from bs4 import BeautifulSoup
 from django.shortcuts import render
+
 
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
