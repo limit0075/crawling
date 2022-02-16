@@ -27,5 +27,6 @@ def result(request):
             commit+=1
     gitcommit = "1일 1커밋한 날은 총 "+str(commit)+"일입니다."
     day = round(commit/365*100,1)
+    d
 
     return render(request,'result.html',{'gitcommit':gitcommit,'day':day,'gitID':gitID})
